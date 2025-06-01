@@ -1,0 +1,11 @@
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+if age >= 18:
+    print("Congratulations", name + ", you are eligible to vote!")
+
+
+sample input and output:
+
+Enter your name: milky
+Enter your age: 22
+Congratulations milky, you are eligible to vote!
