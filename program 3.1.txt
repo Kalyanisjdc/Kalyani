@@ -1,0 +1,16 @@
+mylist=[]
+n=int(input("eneter any number:"))
+for x in range (n):
+    num=int(input("enter a number:"))
+    mylist.append(num)
+print("my updated list is:",mylist)
+
+SAMPLE INPUT&OUTPUT
+
+eneter any number:5
+enter a number:10
+enter a number:20
+enter a number:30
+enter a number:40
+enter a number:50
+my updated list is: [10, 20, 30, 40, 50]

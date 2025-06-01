@@ -1,0 +1,24 @@
+def add(x, y):
+    return x + y
+def subtract(x, y):
+    return x - y
+def multiply(x, y):
+    return x * y
+def divide(x, y):
+    return x / y
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+# Perform arithmetic operations
+print("Addition:", add(num1, num2))
+print("Subtraction:", subtract(num1, num2))
+print("Multiplication:", multiply(num1, num2))
+print("Division:", divide(num1, num2))
+
+sample input and output:
+
+Enter the first number: 10
+Enter the second number: 5
+Addition: 15.0
+Subtraction: 5.0
+Multiplication: 50.0
+Division: 2.0

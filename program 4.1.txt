@@ -1,0 +1,14 @@
+def gcd(a, b):
+    while b != 0:
+        a, b = b, a % b
+    return a
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
+result = gcd(num1, num2)
+print("The GCD of", num1, "and", num2, "is", result)
+
+Sample Input and Output:
+
+Enter the first number: 18
+Enter the second number: 36
+The GCD of 18 and 36 is 18

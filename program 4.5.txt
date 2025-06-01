@@ -1,0 +1,22 @@
+def calculate_sum(numbers):
+    total = 0
+    for num in numbers:
+        total += num
+    return total
+list = []
+n = int(input("Enter the number of elements in the list: "))
+for i in range(n):
+    num = eval(input("Enter element {}: ".format(i+1)))
+    list.append(num)
+result = calculate_sum(list)
+print("The sum of the list is", result)
+
+sample input and output:
+
+Enter the number of elements in the list: 5
+Enter element 1: 10 
+Enter element 2: 20 
+Enter element 3: 30
+Enter element 4: 40
+Enter element 5: 50
+The sum of the list is 150

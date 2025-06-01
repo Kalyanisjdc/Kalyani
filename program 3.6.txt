@@ -1,0 +1,24 @@
+n = int(input("Enter the value of n: "))                                                                     
+mylist = []
+for i in range(n):
+    num = int(input("enter a number:"))
+    mylist.append(num)
+print("Even numbers are")
+print("[", end="")
+for num in mylist:
+    if num % 2 == 0:
+        print(num, end=", ")
+print("]")
+
+SAMPLE INPUT & OUTPUT
+
+Enter the value of n: 5
+enter a number:10
+enter a number:15
+enter a number:20
+enter a number:25
+enter a number:33
+Even numbers are
+[10, 20, ]
+
+

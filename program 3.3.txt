@@ -1,0 +1,12 @@
+l=[10,20,30,40,60,True,1]
+print(len(l))
+print(l)
+print(max(l))
+print(min(l))
+
+SAMPLE INPUT & OUTPUT
+
+7
+[10, 20, 30, 40, 60, True, 1]
+60
+True
