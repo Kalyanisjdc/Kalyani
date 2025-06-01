@@ -1,0 +1,7 @@
+import secrets
+random_number = secrets.randbelow(10) + 1
+print("Cryptographically Secure Random Number:", random_number)
+
+sample output:
+
+ cyptographically Secure Random Number: 8
