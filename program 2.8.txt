@@ -1,0 +1,9 @@
+num = 0
+while num <= 20:
+    if num % 2 == 0:
+        print(num,end=”,”)
+    num += 1
+
+sample output:
+
+0,2,4,6,8,10,12,14,16,18,20

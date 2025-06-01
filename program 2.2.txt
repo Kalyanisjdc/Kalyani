@@ -1,0 +1,10 @@
+num = int(input("Enter a number: ")) 
+if num % 2 == 0: 
+    print(num, "is even.") 
+else: 
+    print(num, "is odd.") 
+
+Sample input & output: 
+
+Enter a number: 24 
+24 is even. 
