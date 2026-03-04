@@ -1,7 +1,0 @@
-a=int(input("Enter first number:"))
-b=int(input("Enter second number:"))
-print("Greater than:",a>b)
-print("Less than:",a<b)
-print("less than or equal to:",a<=b)
-print("Greater than or equal to:",a>=b)
-print("Equal to:",a==b)
